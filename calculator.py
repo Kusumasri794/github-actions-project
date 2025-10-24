@@ -15,7 +15,7 @@ def divide(a, b):
 
 if __name__ == "__main__":
     print("Simple Calculator")
-    print("5 + 3 =", add(5, 3))
+    print("5 + 5 =", add(5, 5))
     print("10 - 4 =", subtract(10, 4))
     print("6 * 7 =", multiply(6, 7))
     print("15 / 3 =", divide(15, 3))
