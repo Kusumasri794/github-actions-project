@@ -11,7 +11,7 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Error: Division by zero!"
+        return "Error: Divsion by zero!"
 
 if __name__ == "__main__":
     print("Simple Calculator")
