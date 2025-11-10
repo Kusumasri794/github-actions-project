@@ -6,4 +6,6 @@ jobs:
      steps:
        - name: print greetings
          run: echo "hello ! good day"
+       - name: print the user
+         run: echo $whoami
       
