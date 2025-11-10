@@ -1,10 +1,9 @@
 name: github action work flow to run on ubuntu-latest image
-'on': workflow_dispatch
+on: workflow_dispatch
 jobs:
   first_job:
-     runs_on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps:
        - name: print greetings
          run: echo "hello ! good day"
-      - name: print who ami I
-        run: echo $whoami
+      
